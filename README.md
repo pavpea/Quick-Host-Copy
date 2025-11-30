@@ -47,8 +47,8 @@
 
 | 操作 (Action) | 结果 (Result) | 反馈 (Badge) | 场景示例 |
 | :--- | :--- | :--- | :--- |
-| **单击图标** | 复制 `192.168.1.1` | <img src="https://via.placeholder.com/30/4ade80/FFFFFF?text=OK" width="30"> (绿色) | SSH 连接、Ping 测试 |
-| **连击图标**<br>*(2秒内)* | 复制 `192.168.1.1:8006` | <img src="https://via.placeholder.com/30/4ade80/FFFFFF?text=ALL" width="30"> (绿色) | 浏览器访问、分享完整链接 |
+| **单击图标** | 复制 `192.168.1.1` | 🟩 **OK** | SSH 连接、Ping 测试 |
+| **连击图标**<br>*(2秒内)* | 复制 `192.168.1.1:8006` | 🟩 **ALL** | 浏览器访问、分享完整链接 |
 
 ## 🛠️ 技术原理 (How it works)
 
