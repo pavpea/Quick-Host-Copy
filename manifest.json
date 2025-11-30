@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Host Copy",
+  "version": "2.1",
+  "description": "全天候一键复制域名 (修复复制失效问题)",
+  "permissions": ["activeTab", "scripting", "offscreen", "clipboardWrite"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "点击复制域名",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
